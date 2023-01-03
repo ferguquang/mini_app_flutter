@@ -3,3 +3,7 @@ Future<String?> getData(String token) async {
     return "4444";
   });
 }
+
+int getMilisecond(int a) {
+  return 31;
+}
