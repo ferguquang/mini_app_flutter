@@ -7,3 +7,8 @@ Future<String?> getData(String token) async {
 int getMilisecond(int a) {
   return 31;
 }
+
+Future<String> getDataFromMiniapp(String caiAppChuTruyenSang) async {
+  String value = await caiAppChuTruyenSang;
+  return "ADFDFDF";
+}
